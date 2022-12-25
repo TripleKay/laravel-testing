@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap');
+
+body {
+    font-family: 'Padauk', sans-serif !important;
+}
+:root {
+    --pagination-color : black;
+}
+.dataTables_length,
+.dataTables_filter,
+.dataTables_info,
+.dataTables_paginate{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.dataTables_paginate .pagination .paginate_button {
+    background-color: transparent;
+    /* color: black; */
+    border-radius: 4px;
+    /* border: 1px solid red; */
+  }
+  .dataTables_paginate .pagination .page-item .page-link {
+    color: #1f2c3e !important;
+    margin: 2px;
+    border-radius: 5px;
+  }
+
+.dataTables_paginate .pagination .page-item.active .page-link {
+    background-color: #1f2c3e !important;
+    color: #fff !important;
+}
+
+.dataTables_paginate .pagination .page-item .page-link i {
+    color: var(--pagination-color) !important;
+}
+
+.btn_icon {
+    font-size: 15px !important;
+}
+
+.btn_primary {
+    background: #1F2C3E;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: .3s ease-in-out;
+}
+.btn_primary:hover {
+    color: #1F2C3E;
+    background-color: #fff;
+    border: 1px solid #1F2C3E;
+    transition: .3s ease-in-out;
+}
+.my_card {
+    border: 1px solid transparent !important;
+    border-radius: 10px !important;
+}
